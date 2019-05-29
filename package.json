@@ -1,5 +1,5 @@
 {
-  "name": "tweetnacl-util",
+  "name": "tweetnacl-util-with-polyfill",
   "version": "0.15.0",
   "description": "String encoding utilitlies extracted from TweetNaCl.js",
   "main": "nacl-util.js",
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/dchest/tweetnacl-util-js",
   "dependencies": {
-	  "Base64": "1.0.2"
+    "Base64": "1.0.2"
   },
   "devDependencies": {
     "browserify": "^14.1.0",
