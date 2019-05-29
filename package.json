@@ -25,6 +25,9 @@
     "url": "https://github.com/dchest/tweetnacl-util-js/issues"
   },
   "homepage": "https://github.com/dchest/tweetnacl-util-js",
+  "dependencies": {
+	  "Base64": "1.0.2"
+  },
   "devDependencies": {
     "browserify": "^14.1.0",
     "tape": "^4.6.3",
