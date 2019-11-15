@@ -7,9 +7,11 @@ polyfill(g || {});
 
 function polyfill(object) {
 	object.btoa || (
+		delete object.btoa, 
 		object.btoa = Base64.btoa
 	);
 	object.atob || (
+		delete object.atob, 
 		object.atob = Base64.atob
 	);
 }
